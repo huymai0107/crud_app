@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
     const items = require("../controllers/items.controller.js");
     // Create a new Item
-    router.post("/test", items.create);
+    router.post("/", items.create);
   
     // Retrieve all items
     router.get("/", items.findAll);
