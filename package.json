@@ -1,0 +1,29 @@
+{
+  "name": "crud_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "watch": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huymai0107/crud_app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huymai0107/crud_app/issues"
+  },
+  "homepage": "https://github.com/huymai0107/crud_app#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.23.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
