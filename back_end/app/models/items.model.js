@@ -5,6 +5,9 @@ module.exports = (sequelize, Sequelize) => {
       title: {
         type: Sequelize.STRING
       },
+      photo: {
+        type: Sequelize.STRING
+      },
       description: {
         type: Sequelize.STRING
       },

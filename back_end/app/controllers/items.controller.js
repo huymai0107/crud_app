@@ -15,6 +15,7 @@ exports.create = (req, res) => {
     // Create a Item
     const item = {
       title: req.body.title,
+      photo: req.body.photo,
       description: req.body.description,
       published: req.body.published ? req.body.published : false
     };
