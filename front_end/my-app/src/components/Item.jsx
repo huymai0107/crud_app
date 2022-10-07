@@ -5,7 +5,6 @@ import {
     SearchOutlined,
     ShoppingCartOutlined,
   } from '@mui/icons-material';
-  import api from '../api/api';
 import { fetchItem } from "../api/ItemAPI";
 
   

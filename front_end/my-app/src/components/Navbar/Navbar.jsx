@@ -10,18 +10,18 @@ const Navbar = () => {
       <Nav>
         <NavbarContainer>
           
-          <NavLogo href='/'>
+          <NavLogo onclick="window.location='google.com">
             Khmer
           </NavLogo>
           
 
           <NavMenu>
+          <Search style={{ color: "gray", fontSize: 40 }} />
           <SearchContainer>
-            <Input placeholder=" Search" />
-            <Search style={{ color: "gray", fontSize: 40 }} />
+            <Input placeholder=" Search"></Input>
           </SearchContainer>
           <SellBtn>
-              <SellBtnLink to='sell'>
+              <SellBtnLink>
                 Sell
               </SellBtnLink >
             </SellBtn>
@@ -34,12 +34,12 @@ const Navbar = () => {
 
           <NavMenu>
             <NavItem>
-            <NavLinks to='#about'> 
+            <NavLinks > 
               <ShoppingCartOutlined style={{ color: "gray", fontSize: 40 }} />
             </NavLinks>
             </NavItem>
             <NavItem>
-            <NavLinks to='signin'>
+            <NavLinks>
               Sign In
             </NavLinks>
           </NavItem>

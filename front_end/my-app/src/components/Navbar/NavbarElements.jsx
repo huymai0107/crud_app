@@ -46,7 +46,7 @@ export const NavbarContainer = styled.div`
     max-width: 1100px;
 `
 
-export const NavLogo= styled(LinkR)`
+export const NavLogo= styled.div`
     color: black;
     justify-self: flex-start;   
     cursor: pointer;    
@@ -64,7 +64,7 @@ export const NavLogo= styled(LinkR)`
 
 
 
-export const NavMenu = styled.ul`
+export const NavMenu = styled.div`
     display: flex;
     align-items: center;
     list-style: none;
@@ -74,7 +74,7 @@ export const NavMenu = styled.ul`
         display: none;
     }
 `
-export const NavItem = styled.li`
+export const NavItem = styled.div`
     height: 80px;
     &:hover{
         transition: all 0.2 ease-in-out;
@@ -83,7 +83,7 @@ export const NavItem = styled.li`
     }
 `
 
-export const NavLinks = styled(LinkS)`
+export const NavLinks = styled.div`
     color: #000000;
     display: flex;
     align-items: center;
@@ -103,7 +103,7 @@ export const NavBtn = styled.nav`
      display   : none ;
     }
 `
-export const NavBtnLink = styled(LinkR)`
+export const NavBtnLink = styled.div`
     background: none;
     white-space: nowrap;
     padding: 22px 22px;
@@ -150,7 +150,7 @@ export const SellBtn = styled.nav`
      display   : none ;
     }
 `
-export const SellBtnLink = styled(LinkR)`
+export const SellBtnLink = styled.div`
     background: #e8863b;
     white-space: nowrap;
     padding: 22px 22px;
