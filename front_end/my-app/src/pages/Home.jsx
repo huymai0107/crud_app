@@ -1,18 +1,21 @@
 import React from 'react'
-import Categories from '../components/Categories'
 import Navbar from '../components/Navbar'
 import Item from'../components/Item'
-
+import Newsletter from '../components/Newsletter'
 
 
 
 const Home = () => {
   return (
-        <div>
-        <Navbar/>
-        {/* <Categories></Categories> */}
+    <>
+            <Navbar/>
         <Item></Item>
-        </div>
+    </>
+      
+
+      
+
+
 
   )
 }

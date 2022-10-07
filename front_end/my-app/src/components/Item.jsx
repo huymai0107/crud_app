@@ -5,13 +5,9 @@ import {
     SearchOutlined,
     ShoppingCartOutlined,
   } from '@mui/icons-material';
-  import axios from 'axios';
+  import api from '../api/api';
+import { fetchItem } from "../api/ItemAPI";
 
-  const api = axios.create(
-    {
-      baseURL: "http://localhost:8080/api/items"
-    }
-  )
   
 const Container = styled.div`
     padding: 20px;
@@ -87,27 +83,18 @@ class Item extends Component {
     
       constructor(){
         super();
-        api.get('/').then(res=>{
-          console.log(res.data)
+        fetchItem().then(res => {
+          console.log(res);
           this.setState({items: res.data})
-        }
-        )
+        })
+
+
+        // api.get('/api/items').then(res=>{
+        //   console.log(res.data)
+        //   this.setState({items: res.data})
+        // }
+        // )
       }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     render(){
         return (
 
@@ -117,7 +104,7 @@ class Item extends Component {
                     <ContainerForEachItems >
                     <Circle />
                     <Image src={item.photo} />
-                    <Info>
+                    <Info>                     
                       <Icon>
                         <ShoppingCartOutlined />
                       </Icon>

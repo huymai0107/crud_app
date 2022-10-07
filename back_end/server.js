@@ -1,6 +1,6 @@
 const express = require("express");
 const cors = require("cors");
-
+const morgan = require('morgan')
 const app = express();
 
 var corsOptions = {
@@ -14,6 +14,8 @@ app.use(express.json());
 
 // parse requests of content-type - application/x-www-form-urlencoded
 app.use(express.urlencoded({ extended: true }));
+
+app.use(morgan('dev'))
 
 // simple route
 app.get("/", (req, res) => {
