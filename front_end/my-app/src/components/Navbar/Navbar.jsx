@@ -2,7 +2,7 @@ import React from 'react'
 import { Nav, NavbarContainer, NavLogo, NavMenu, NavLinks, MobileIcon, NavItem, NavBtnLink, NavBtn, SearchContainer, Input, SellBtn, SellBtnLink } from './NavbarElements'
 import {FaBars} from 'react-icons/fa'
 import { Search, ShoppingCartOutlined } from "@mui/icons-material";
-
+import AccountBoxIcon from '@mui/icons-material/AccountBox';
 
 const Navbar = () => {
   return (
@@ -10,7 +10,7 @@ const Navbar = () => {
       <Nav>
         <NavbarContainer>
           
-          <NavLogo onclick="window.location='google.com">
+          <NavLogo href='/'>
             Khmer
           </NavLogo>
           
@@ -39,8 +39,8 @@ const Navbar = () => {
             </NavLinks>
             </NavItem>
             <NavItem>
-            <NavLinks>
-              Sign In
+            <NavLinks href='/signin'>
+              <AccountBoxIcon style={{ color: "gray", fontSize: 40 }} ></AccountBoxIcon>  
             </NavLinks>
           </NavItem>
           </NavMenu>

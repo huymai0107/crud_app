@@ -46,7 +46,7 @@ export const NavbarContainer = styled.div`
     max-width: 1100px;
 `
 
-export const NavLogo= styled.div`
+export const NavLogo= styled.a`
     color: black;
     justify-self: flex-start;   
     cursor: pointer;    
@@ -83,7 +83,7 @@ export const NavItem = styled.div`
     }
 `
 
-export const NavLinks = styled.div`
+export const NavLinks = styled.a`
     color: #000000;
     display: flex;
     align-items: center;
