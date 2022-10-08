@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import Home from './pages/Home';
-import SignIn from './pages/SignIn';
+import SignIn from './pages/SignIn/';
 
 
 class App extends Component {
