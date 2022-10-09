@@ -17,6 +17,8 @@ export const FormWrap = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
+    justify-items: center;
+    align-items: cen;
 
     @media screen and (max-width: 400px)
     {
@@ -55,18 +57,20 @@ export const FormContent = styled.div`
 
 
 export const Form = styled.form`
+    display: flex;
     background: #211F30;
-    max-width: 400px;
+    max-width: 500px;
     height: auto;
     width: 100%;
-
     z-index: 1;
     display: grid;
-    margin: 0 auto;
-    padding: 80px 32px;
+    margin:  auto;
+    padding: 80px 20px;
     border-radius: 4px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9)
     ;
+    align-self: center;
+    justify-self: center;
     @media screen and (max-width: 400px) {
     padding: 32px 32px;
 }`
@@ -74,27 +78,37 @@ export const Form = styled.form`
 export const FormH1 = styled.h1`
     margin-bottom: 40px;
     color: #fff;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bolder;
     text-align: center;
+    
 `
 
 export const FormLabel = styled.label`
+    flex: 1;
     margin-bottom: 8px;
+    margin-right: 160px;
+    margin-left: 20px;
     font-size: 14px;
     color: aliceblue;
 `
 
 export const FormInput = styled.input`
-    padding: 16px 16px;
+    margin-right: 10px;
+    margin-left: 20px;
+    padding: 16px 40px;
     margin-bottom: 32px;
     border: none;
     border-radius: 10px ;
+
 `
 
 export const FormButton = styled.button`
+    flex: 1;
     background-color: #e8863b;
-    padding: 16px 0 ;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 16px 16px ;
     border: none;
     border-radius: 4px;
     color: #fff;
@@ -109,7 +123,11 @@ export const FormButton = styled.button`
 export const Text = styled.span`
     text-align: center;
     margin: center;
-    color: #666b7e;
+    color: #32384D;
     font-size: 16px;
     padding: 10px 10px;
+`
+
+export const divTest = styled.div`
+    display:inline-block;
 `

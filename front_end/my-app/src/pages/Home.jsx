@@ -8,6 +8,7 @@ import Newsletter from '../components/Newsletter'
 const Home = () => {
   return (
     <>
+        <Navbar></Navbar>
         <Item></Item>
     </>
       

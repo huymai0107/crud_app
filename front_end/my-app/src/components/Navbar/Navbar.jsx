@@ -16,7 +16,7 @@ const Navbar = () => {
           
 
           <NavMenu>
-          <Search style={{ color: "gray", fontSize: 40 }} />
+          <Search style={{ color: "#211F30", fontSize: 40 }} />
           <SearchContainer>
             <Input placeholder=" Search"></Input>
           </SearchContainer>
@@ -35,12 +35,12 @@ const Navbar = () => {
           <NavMenu>
             <NavItem>
             <NavLinks > 
-              <ShoppingCartOutlined style={{ color: "gray", fontSize: 40 }} />
+              <ShoppingCartOutlined style={{ color: "#211F30", fontSize: 40 }} />
             </NavLinks>
             </NavItem>
             <NavItem>
             <NavLinks href='/signin'>
-              <AccountBoxIcon style={{ color: "gray", fontSize: 40 }} ></AccountBoxIcon>  
+              <AccountBoxIcon style={{ color: "#211F30", fontSize: 40 }} ></AccountBoxIcon>  
             </NavLinks>
           </NavItem>
           </NavMenu>

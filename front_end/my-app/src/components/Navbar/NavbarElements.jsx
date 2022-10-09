@@ -47,7 +47,6 @@ export const NavbarContainer = styled.div`
 `
 
 export const NavLogo= styled.a`
-    color: black;
     justify-self: flex-start;   
     cursor: pointer;    
     font-size: 3.5rem;
@@ -56,8 +55,9 @@ export const NavLogo= styled.a`
     display: flex;
     font-weight: bolder;
     text-decoration: none;
+    color: #211F30;
     &:hover{
-        color: #e8863b;
+        color: #32384D;
     }
 `;
 
@@ -151,7 +151,7 @@ export const SellBtn = styled.nav`
     }
 `
 export const SellBtnLink = styled.div`
-    background: #e8863b;
+    background: #E29930;
     white-space: nowrap;
     padding: 22px 22px;
     color: #010606;
