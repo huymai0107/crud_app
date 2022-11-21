@@ -22,7 +22,7 @@ const Navbar = () => {
           </SearchContainer>
           <SellBtn>
               <SellBtnLink>
-                Sell
+                Go
               </SellBtnLink >
             </SellBtn>
           </NavMenu>
@@ -34,7 +34,7 @@ const Navbar = () => {
 
           <NavMenu>
             <NavItem>
-            <NavLinks > 
+            <NavLinks href='/cart'> 
               <ShoppingCartOutlined style={{ color: "#211F30", fontSize: 40 }} />
             </NavLinks>
             </NavItem>
@@ -45,6 +45,7 @@ const Navbar = () => {
           </NavItem>
           </NavMenu>
         </NavbarContainer>
+        
       </Nav>
     
     

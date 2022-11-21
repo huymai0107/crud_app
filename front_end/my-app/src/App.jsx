@@ -4,6 +4,9 @@ import Navbar from './components/Navbar/Navbar';
 import Home from './pages/Home';
 import Register from './pages/Register';
 import SignIn from './pages/SignIn/';
+import ItemList from './pages/ItemList'
+import Cart from './pages/Cart'
+
 
 
 class App extends Component {
@@ -14,6 +17,10 @@ class App extends Component {
           <Route path='/' element={<Home/>} />
           <Route path='/signin' element={<SignIn/>}/>
           <Route path='/register' element={<Register/>}/>
+          <Route path='/shop' element={<ItemList/>} />
+          <Route path='/cart' element={<Cart/>} />
+
+
 
       </Routes>
 </>

@@ -7,11 +7,11 @@ import Newsletter from '../components/Newsletter'
 
 
 
-const Home = () => {
+const ItemList = () => {
   return (
     <>
         <Navbar></Navbar>
-        <ShopOrSell></ShopOrSell>
+        <Item></Item>
         <Newsletter></Newsletter>
         <Footer></Footer>
 
@@ -19,4 +19,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default ItemList
